@@ -7,5 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return (int(a>(-1)))
-print(main(-1))
+    return (a>=0)
+print(main(int(-1))) 
