@@ -6,5 +6,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return ((float(pow(a,1/2))-int(pow(a,1/2)))==0)
+    return ((float(pow(a,1/2))-int(pow(a,1/2)))==0 and int(a)-float(a)==0)
 print(main(10))
